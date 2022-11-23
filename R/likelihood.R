@@ -1,5 +1,5 @@
 #'
-#' computes the joint likelihood of y and b
+#' Computes the joint likelihood of y and b
 #'
 #' @param param      - (k x 1) parameter for the model
 #' @param input_data - (list) $Bstar
@@ -196,8 +196,8 @@ likelihood_y_b2<-function(param, input_data){
 
 
 
-#' @title Posterior mean
-#' @desciption Compute the posterior mean for the second example
+#' Posterior mean
+#' Compute the posterior mean for the second example
 #'
 #' @param param      - (k x 1) parameter for the model
 #' @param input_data - (list) $Bstar

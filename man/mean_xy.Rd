@@ -2,7 +2,8 @@
 % Please edit documentation in R/likelihood.R
 \name{mean_xy}
 \alias{mean_xy}
-\title{Posterior mean}
+\title{Posterior mean
+Compute the posterior mean for the second example}
 \usage{
 mean_xy(param, input_data, use_fake = FALSE)
 }
@@ -17,4 +18,5 @@ $alpha}
 }
 \description{
 Posterior mean
+Compute the posterior mean for the second example
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/likelihood.R
 \name{likelihood_y_b}
 \alias{likelihood_y_b}
-\title{computes the joint likelihood of y and b}
+\title{Computes the joint likelihood of y and b}
 \usage{
 likelihood_y_b(param, input_data, use_fake = FALSE)
 }
@@ -16,5 +16,5 @@ $bstar
 $alpha}
 }
 \description{
-computes the joint likelihood of y and b
+Computes the joint likelihood of y and b
 }

@@ -57,17 +57,20 @@ Rcpp::List    c_basis1(Eigen::MappedSparseMatrix<double> A) {
   return(output);
 }
 
+//' @name unique_vector
+//' @noRd
 //'
-//' sorts integervector
+// sorts integervector
 void unique_vector(std::vector<int> & veci){
   std::sort(veci.begin(), veci.end());
   std::vector<int>::iterator  it_unique = std::unique(veci.begin(), veci.end());
   veci.resize( std::distance(veci.begin(),it_unique) );
 
 }
+//' @name set_diff
+//' @noRd
 //'
-//' setdiff(A,B) stored in C
-//'
+// setdiff(A,B) stored in C
 void set_diff(std::vector<int> & A,
               std::vector<int> & B,
               std::vector<int> & C){

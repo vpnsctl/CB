@@ -5,8 +5,12 @@ using namespace Rcpp;
 
 //[[Rcpp::depends(RcppEigen)]]
 
-
-//[[Rcpp::export]]
+//' @name likelihood
+//' @title Likelihood
+//' @return T (n x n) the basis matrix
+//' @export
+//'
+// [[Rcpp::export]]
 Eigen::SparseMatrix<double>   likelihood(Eigen::SparseMatrix<double>  Q) {
   Eigen::AMDOrdering<int> ordering;
   Eigen::PermutationMatrix<Eigen::Dynamic, Eigen::Dynamic, int> perm;
